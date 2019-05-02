@@ -12,9 +12,11 @@ Al :
 
 #Possible features :#
 
-1. Automatic submition of the food bonus withou API.
+1. Automatic submition of the food bonus without API.
 
 Implement a proccess that runs daily to read the repository and get the list of all people that went to the office the day before and check if they have already submitted 2 food bonus in the week, and submit a new one if not.
+
+Create a separate repository to keep track of visits to the office.
   
 2. API to expose data
 
@@ -23,5 +25,9 @@ Implement an API to get the days a person visits the office on date range. This 
 3. Get door badge reader signal to keep independent record.
 
 We can find out how the reader signal is transmited and capture, so we can implement an independent solution.
+
+4. Replace google forms for a custom repository.
+
+
 
 
